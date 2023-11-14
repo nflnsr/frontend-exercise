@@ -7,7 +7,7 @@ export function Credit({ children, className }: { children?: React.ReactNode, cl
       <h5>
         Made by <span className="text-red-500">Naufal Nasrullah</span> with{" "}
         <span className="underline text-emerald-500">
-         React, Tailwind, Shadcn, React Hook Form, Zod, Redux, TypeScript, and ❤
+         React, Tailwind, Shadcn, React Hook Form, Zod, Axios, Redux, TypeScript, Local Auth, Rest API Product, Vercel, and ❤
         </span>
       </h5>
       <h6 className="mt-1">⚠️ please contact me if you found any bug ⚠️</h6>
