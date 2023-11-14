@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { Footer } from "@/components/footer";
 import assets_1 from "@/assets/images/hero-img.png";
+import { Credit } from "@/components/credit";
+import { InfoIcon } from "lucide-react";
 
 const Home = () => {
   return (
@@ -58,10 +60,15 @@ const Home = () => {
         </section>
       </main>
       <Footer />
-      <h5 className="text-xs py-2 px-1 text-center">
-        I created this page based on a provided design. I started with bootstrap and then refactor
-        it with tailwind.
+      <h5 className="text-xs px-1 text-center mt-2">
+        I created this website to complete an assignment from MSIB Kampus Merdeka program. The
+        objective is to implement the required <span className="underline font-semibold">functionality</span> and gain a comprehensive understanding of the <span className="underline font-semibold">concepts</span>.
       </h5>
+      <p className="text-xs px-1 text-center mt-2">
+        This page based on a provided design. I started with bootstrap and then refactor it with
+        tailwind.
+      </p>
+      <Credit />
     </div>
   );
 };
