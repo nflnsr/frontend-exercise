@@ -64,8 +64,8 @@ const Home = () => {
         I created this website to complete an assignment from MSIB Kampus Merdeka program. The
         objective is to implement the required <span className="underline font-semibold">functionality</span> and gain a comprehensive understanding of the <span className="underline font-semibold">concepts</span>.
       </h5>
-      <p className="text-xs px-1 text-center mt-2">
-        This page based on a provided design. I started with bootstrap and then refactor it with
+      <p className="text-xs px-1 text-center mt-2 text-slate-500">
+        <InfoIcon className="w-[12px] h-[12px] inline-block"/> This page based on a provided design. I started with bootstrap and then refactor it with
         tailwind.
       </p>
       <Credit />
